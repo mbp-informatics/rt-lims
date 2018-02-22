@@ -1,0 +1,25 @@
+CREATE TABLE `qc_growths` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `inventory_vial_id` int(11) DEFAULT NULL,
+  `started` date DEFAULT NULL,
+  `finished` date DEFAULT NULL,
+  `started_by` varchar(50) DEFAULT NULL,
+  `finished_by` varchar(50) DEFAULT NULL,
+  `pass` varchar(25) DEFAULT NULL,
+  `comment` varchar(255) DEFAULT NULL,
+  `confluency` varchar(25) DEFAULT NULL,
+  `size` varchar(25) DEFAULT NULL,
+  `shape` varchar(25) DEFAULT NULL,
+  `texture` varchar(25) DEFAULT NULL,
+  `color` varchar(25) DEFAULT NULL,
+  `dead_cells` varchar(25) DEFAULT NULL,
+  `qc_type` varchar(4) DEFAULT NULL,
+  `image_name` varchar(100) DEFAULT NULL,
+  `created` datetime DEFAULT NULL,
+  `modified` datetime DEFAULT NULL,
+  `user_id` int(11) DEFAULT NULL,
+  `kompvialid` int(11) DEFAULT NULL,
+  `quality_control_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=17897 DEFAULT CHARSET=latin1;
+

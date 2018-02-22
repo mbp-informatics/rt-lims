@@ -1,0 +1,61 @@
+#bg {
+  background-color:#ddd;
+  padding:50px;
+}
+.cells {
+  width:50px;
+  height:50px;
+  background-color:#f5f3e6;
+  margin:1px;
+  float:left;
+  font-size:10px;
+  color:#333;
+}
+.vials {
+  width:50px;
+  height:50px;
+  background-color:transparent;
+  margin:1px;
+  float:left;
+  font-family: "Arial, Helvetica, sans-serif";
+  cursor:pointer;
+}
+.sperm {
+  background-image:url('/webroot/img/i88.png'); /*sperm image */
+}
+.embryo {
+  background-image:url('/webroot/img/i31.png'); /*embryo image */
+}
+.escell {
+  background-image:url('/webroot/img/i100.png'); /*es_cell image */
+}
+.ghost-vials {
+  width:50px;
+  height:50px;
+  margin:1px;
+  float:left;
+}
+#content {
+  display: table;
+  height: auto;
+  margin: 0 auto;
+  width:720px;
+}
+#vialsGrid {
+    position:absolute;
+    margin:0 0 auto;
+    height:auto;
+    width:720px;
+}
+.hovered {
+  background-color:yellow;
+}
+#ajax-loader {
+  visibility:show;
+  display:block;
+}
+.ghost-vials:hover {
+  background-color:transparent;
+  background-image:url('/webroot/img/iplus.png'); /* plus icon */
+  cursor:pointer;
+}

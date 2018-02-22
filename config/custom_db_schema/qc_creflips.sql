@@ -1,0 +1,27 @@
+CREATE TABLE `qc_creflips` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `inventory_vial_id` int(11) DEFAULT NULL,
+  `started` date DEFAULT NULL,
+  `finished` date DEFAULT NULL,
+  `started_by` int(11) DEFAULT NULL,
+  `finished_by` int(11) DEFAULT NULL,
+  `pass` tinyint(4) DEFAULT NULL,
+  `comment` varchar(255) DEFAULT NULL,
+  `pcr1` int(11) DEFAULT NULL,
+  `southern1` int(11) DEFAULT NULL,
+  `northern1` int(11) DEFAULT NULL,
+  `electroporation1` int(11) DEFAULT NULL,
+  `pcr2` int(11) DEFAULT NULL,
+  `southern2` int(11) DEFAULT NULL,
+  `northern2` int(11) DEFAULT NULL,
+  `electroporation2` int(11) DEFAULT NULL,
+  `pcr3` int(11) DEFAULT NULL,
+  `southern3` int(11) DEFAULT NULL,
+  `northern3` int(11) DEFAULT NULL,
+  `created` datetime DEFAULT NULL,
+  `modified` datetime DEFAULT NULL,
+  `user_id` int(11) DEFAULT NULL,
+  `quality_control_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
